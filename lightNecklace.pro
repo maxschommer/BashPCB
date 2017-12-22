@@ -1,4 +1,4 @@
-update=12/22/2017 12:06:20 PM
+update=12/22/2017 4:54:13 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../robo_board/breakout_board/Custom Libraries
+LibDir=../BashPCB
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/mschommer/Documents/GitHub/robo_board/breakout_board/Custom Libraries/button
+LibName30=Custom
