@@ -1,0 +1,136 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA32U4RC-AU U?
+U 1 1 5A3D2749
+P 3050 3275
+F 0 "U?" H 2100 4975 50  0000 C CNN
+F 1 "ATMEGA32U4RC-AU" H 3750 1775 50  0000 C CNN
+F 2 "TQFP44" H 3050 3275 50  0001 C CIN
+F 3 "" H 4150 4375 50  0001 C CNN
+	1    3050 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A3D2E02
+P 1650 3475
+F 0 "C?" H 1675 3575 50  0000 L CNN
+F 1 "1uF" H 1675 3375 50  0000 L CNN
+F 2 "" H 1688 3325 50  0001 C CNN
+F 3 "" H 1650 3475 50  0001 C CNN
+	1    1650 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A3D2EC8
+P 1650 3625
+F 0 "#PWR?" H 1650 3375 50  0001 C CNN
+F 1 "GND" H 1650 3475 50  0000 C CNN
+F 2 "" H 1650 3625 50  0001 C CNN
+F 3 "" H 1650 3625 50  0001 C CNN
+	1    1650 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A3D2F06
+P 1650 2775
+F 0 "C?" H 1675 2875 50  0000 L CNN
+F 1 "C" H 1675 2675 50  0000 L CNN
+F 2 "" H 1688 2625 50  0001 C CNN
+F 3 "" H 1650 2775 50  0001 C CNN
+	1    1650 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A3D2F7F
+P 1450 2625
+F 0 "#PWR?" H 1450 2375 50  0001 C CNN
+F 1 "GND" H 1450 2475 50  0000 C CNN
+F 2 "" H 1450 2625 50  0001 C CNN
+F 3 "" H 1450 2625 50  0001 C CNN
+	1    1450 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3D2FBE
+P 1525 3025
+F 0 "R?" V 1605 3025 50  0000 C CNN
+F 1 "22" V 1525 3025 50  0000 C CNN
+F 2 "" V 1455 3025 50  0001 C CNN
+F 3 "" H 1525 3025 50  0001 C CNN
+	1    1525 3025
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3D30A1
+P 1525 3225
+F 0 "R?" V 1605 3225 50  0000 C CNN
+F 1 "22" V 1525 3225 50  0000 C CNN
+F 2 "" V 1455 3225 50  0001 C CNN
+F 3 "" H 1525 3225 50  0001 C CNN
+	1    1525 3225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 3325 1900 3325
+Wire Wire Line
+	1650 2925 1900 2925
+Wire Wire Line
+	1450 2625 1650 2625
+Wire Wire Line
+	1675 3025 1900 3025
+Wire Wire Line
+	1900 3025 1900 3075
+Wire Wire Line
+	1675 3225 1900 3225
+Wire Wire Line
+	1900 3225 1900 3175
+$EndSCHEMATC
