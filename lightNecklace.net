@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Chipster/Documents/Github/BashPCB/lightNecklace.sch)
-    (date "12/22/2017 6:35:36 PM")
+    (date "12/22/2017 7:36:42 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -436,7 +436,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A3FEA3A))
     (comp (ref C12)
-      (value 0.33uF)
+      (value 0.1uF)
       (footprint Capacitors_SMD:C_0603)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
